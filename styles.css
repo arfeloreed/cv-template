@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Forum", serif;
+}
+header {
+    background-color: #f08e80;
+    min-height: 90vh;
+    width: 100vw;
+    color: #fff;
+    display: inline-block;
+}
+h1 {
+    font-size: 3.5rem;
+    margin: 60px 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 24px;
+}
+.navbar p {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+.navbar .contact {
+    background-color: #fff;
+    color: #f08e80;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+.nav-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.nav-box {
+    font-size: 1.25rem;
+}
+.nav-box p {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.nav-box ul {
+    width: 50%;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+.nav-box ul li {
+    width: 50%;
+    float: left;
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
